@@ -10,7 +10,7 @@ echo "Installing user dependencies..."
 echo
 
 mkdir -p ~/.config/nvim
-cp init.vim ~/.config/nvim
+cp ../configs/init.vim ~/.config/nvim
 
 pip install virtualenv
 pip install neovim
