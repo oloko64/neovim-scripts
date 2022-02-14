@@ -8,6 +8,9 @@ Scripts to install neovim with some plugins
 
 [coc.vim](https://github.com/neoclide/coc.nvim) - Nodejs extension host for vim & neovim, load extensions like VSCode and host language servers.
 
+## Be advised
+This script currently installs node 17 and add the `neovim` package to it, be advised.
+
 ## How to install
 
 Go to the folder `scripts` and run the desired file for your distribution (Current is Arch or Ubuntu).
