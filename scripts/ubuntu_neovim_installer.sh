@@ -9,6 +9,7 @@ echo
 echo "Installing user dependencies..."
 echo
 
+mv ~/.config/nvim/init.vim ~/.config/nvim/init.vim.bak
 mkdir -p ~/.config/nvim
 cp ../configs/init.vim ~/.config/nvim
 
